@@ -1,0 +1,13 @@
+{
+  "name": "homework-18",
+  "version": "1.0.0",
+  "description": "Final project for responsive web design course",
+  "main": "index.js",
+  "scripts": {
+    "start": "sass --watch scss:css",
+    "build": "sass scss:css --style compressed"
+  },
+  "dependencies": {
+    "sass": "^1.69.5"
+  }
+} 
