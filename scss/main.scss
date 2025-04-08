@@ -220,6 +220,31 @@ body {
       text-align: center;
     }
   }
+
+  // Tablet view
+  @media screen and (max-width: $breakpoint-tablet) {
+    .carousel-container {
+      gap: 15px;
+    }
+
+    .carousel-item {
+      min-width: calc(50% - 10px);
+      flex: 0 0 calc(50% - 10px);
+    }
+  }
+
+  // Mobile view
+  @media screen and (max-width: $breakpoint-mobile) {
+    .carousel-container {
+      flex-direction: column;
+      gap: 20px;
+    }
+
+    .carousel-item {
+      min-width: 100%;
+      flex: 0 0 100%;
+    }
+  }
 }
 
 // Accordion styles
