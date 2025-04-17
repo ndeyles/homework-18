@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="600" height="400" viewBox="0 0 600 400" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <!-- Фоновые элементы -->
+    <circle cx="520" cy="50" r="8" fill="#FFD700" opacity="0.5"/>
+    <rect x="50" y="350" width="12" height="12" transform="rotate(45)" fill="#FF69B4" opacity="0.5"/>
+    <path d="M480 320 L490 330 L480 340 L470 330 Z" fill="#87CEEB" opacity="0.5"/>
+    
+    <!-- Шестиугольник с лампочкой -->
+    <path d="M280 160 L340 120 L400 160 L400 240 L340 280 L280 240 Z" fill="white" stroke="#E0E0E0" stroke-width="2"/>
+    <path d="M340 160 C340 160 360 180 360 200 C360 220 340 230 340 240 C340 250 350 260 350 270" stroke="#FFD700" stroke-width="3" fill="none"/>
+    <circle cx="340" cy="200" r="25" fill="#FFD700"/>
+    
+    <!-- Персонаж 1 (слева) -->
+    <path d="M180 150 C180 150 160 180 160 220 C160 260 200 280 200 280" fill="#4B0082"/>
+    <circle cx="190" cy="140" r="30" fill="#4B0082"/>
+    <rect x="160" y="200" width="60" height="80" fill="#FFD700"/>
+    
+    <!-- Персонаж 2 (справа вверху) -->
+    <path d="M420 100 C420 100 400 130 400 170 C400 210 440 230 440 230" fill="#4169E1"/>
+    <circle cx="430" cy="90" r="30" fill="#4169E1"/>
+    <rect x="400" y="150" width="60" height="80" fill="#FFA500"/>
+    
+    <!-- Персонаж 3 (справа внизу) -->
+    <path d="M500 200 C500 200 480 230 480 270 C480 310 520 330 520 330" fill="#FF69B4"/>
+    <circle cx="510" cy="190" r="30" fill="#FF69B4"/>
+    <rect x="480" y="250" width="60" height="80" fill="#87CEEB"/>
+    
+    <!-- Декоративные элементы -->
+    <circle cx="100" cy="100" r="5" fill="#FFD700" opacity="0.3"/>
+    <circle cx="500" cy="50" r="5" fill="#87CEEB" opacity="0.3"/>
+    <rect x="450" y="300" width="8" height="8" transform="rotate(30)" fill="#FF69B4" opacity="0.3"/>
+    <path d="M150 280 L160 290 L150 300 L140 290 Z" fill="#FFD700" opacity="0.3"/>
+</svg> 
